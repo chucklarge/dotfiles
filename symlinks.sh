@@ -1,5 +1,4 @@
 #!/bin/sh
-ln -s tmux.conf ~/.tmux.conf
-ln -s inputrc ~/.inputrc
-ln -s editrc ~/.editrc
-
+ln -s ~/.dotfiles/tmux.conf ~/.tmux.conf
+ln -s ~/.dotfiles/inputrc ~/.inputrc
+ln -s ~/.dotfiles/editrc ~/.editrc

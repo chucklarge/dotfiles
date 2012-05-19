@@ -1,0 +1,7 @@
+--ignore-dir=localdocs
+--ignore-dir=tmp
+--type-set=smarty=.tpl
+--type-set=patch=.patch
+--type-set=txt=.txt
+--smart-case
+--ignore-dir=tmp/templates/compile

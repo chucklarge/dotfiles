@@ -28,7 +28,6 @@ alias there='cd $THERE_PWD'
 
 alias dos2unix='fromdos'
 alias unix2dos='todos'
-alias ack="ack-grep"
 alias f="find -name"
 alias screen='TERM=screen screen'
 alias disku='du -sh * | sort -rn | head'

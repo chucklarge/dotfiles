@@ -1,10 +1,10 @@
 #!/bin/sh
 
-for i in *; do
-    if [ "$i" != "README.md" ] && [ "$i" != "symlinks.sh" ]; then
-        l="$HOME/.$i"
+for f in *; do
+    if [ "$f" != "README.md" ] && [ "$f" != "symlinks.sh" ]; then
+        l="$HOME/.$f"
         if [ ! -h $l ]; then
-            ln -s $(pwd)/$i $l
+            ln -s $(pwd)/$f $l
             echo "created $l"
         fi
     fi

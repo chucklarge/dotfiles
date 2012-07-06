@@ -5,3 +5,6 @@
 --type-set=txt=.txt
 --smart-case
 --ignore-dir=tmp/templates/compile
+--color-filename=green
+--color-match=magenta
+--color-lineno=blue

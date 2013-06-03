@@ -1,0 +1,2 @@
+_ssh() { COMPREPLY=($(compgen -W "$(grep ^Host ~/.ssh/config | awk '{print $2}')" -- "$2")); }
+complete -F _ssh ssh

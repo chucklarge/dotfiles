@@ -10,6 +10,9 @@ fi
 if [ -a .profile ]; then
     source ~/.profile
 fi
+if [ -a .bash_gitprompt ]; then
+    source ~/.bash_gitprompt
+fi
 
 set -o vi
 
